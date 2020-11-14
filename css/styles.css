@@ -1142,7 +1142,7 @@ border: 1px solid #EEEEEE;
   }  
   
 
-  .backdrop{
+  /*.backdrop{
     position: fixed;
     top: 0;
     left:0;
@@ -1151,3 +1151,13 @@ bottom: 0;
 background-color: #E5E5E5;
 z-index: 100;
   }
+
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 450px;
+  padding: 80px 40px;
+  background-color: #E5E5E5;
+}*/
