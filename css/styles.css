@@ -1262,3 +1262,49 @@ position: relative;
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
 }
+
+
+
+.link.current {
+  position: relative;
+
+  color: var(--accent-color);
+}
+.link.current::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+
+  height: 4px;
+  width: 50%;
+
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
+.link.currentSecond {
+  position: relative;
+
+  color: var(--accent-color);
+}
+
+.link.currentSecond::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -35px;
+
+  height: 4px;
+  width: 78px;
+
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
