@@ -1124,3 +1124,82 @@ position: relative;
   padding: 15px;
   overflow: auto;
 }
+
+
+/*Портфолио маска на карточки*/
+/*overlay*/
+
+
+.content-overlay {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+    .description{
+      height: 100%;
+    }
+
+    .content-overley p{
+      position: absolute;
+      margin: 0;
+      font-size: 18px;
+      padding: 24px 24px;
+      line-height: 1.56;
+      color: #white;
+      z-index: 2;
+      place-self:center;
+      opacity: 0;
+      transform: translatey(100%);
+      transition: transform 250ms easy;
+    }
+
+    .content-overley::before {
+       position: absolute;
+       content: "";
+       width: 100%;
+       height: 100%;
+       z-index:1;
+       opacity: 0;
+       transform: translatey(100%);
+      transition: transform 250ms easy;
+    }
+
+.img-item .content-overlay:hover,
+.img-item .content-overlay:focus{
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.portfolio-meta {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-top: none;
+  box-sizing: border-box;
+}
+
+.portfolio-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  line-height: 1.55;
+  height: 100%;
+  padding: 63px 24px;
+  color: var(--accent-color);
+  background: rgba(33, 150, 243, 0.9);
+  transform: translateY(0);
+  
+}
+
+.portfolio-actions:focus, 
+.portfolio-actions:hover {
+  opacity: 1;
+  transform: translateY(0);
+  color: white;
+  overflow: hidden;
+ }
