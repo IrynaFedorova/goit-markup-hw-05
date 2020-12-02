@@ -662,6 +662,16 @@ svg.address-link-icon{
 .address-link:hover .address-link-icon{
   fill: var(--accent-color);
 }
+
+li.contacts-item:focus,
+li.contacts-item:hover{
+  fill: var(--accent-color);
+}
+
+.clients-links:focus .clients-icon,
+.clients-links:hover .clients-icon{
+  fill: var(--accent-color);
+}
     /*.clients-list .clients-item::before {
         display: block;
         content: '';
