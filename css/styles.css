@@ -302,6 +302,7 @@ li.content-items:hover,
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+
 /*.content .link {
     display: block;
 
@@ -324,7 +325,7 @@ li.content-items:hover,
   padding-left: 24px;
   
 
-  color: var(--secondary-text-color);
+  color: #757575;
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -349,7 +350,7 @@ li.content-items:hover,
 }
 
 .portfolio-title{
-  margin-top: 5px;
+  margin-top: 6px;
     padding-left: 4px;
     color: var(--title-text-color);
     font-family: Roboto;
