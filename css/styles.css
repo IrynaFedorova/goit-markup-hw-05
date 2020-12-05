@@ -1271,6 +1271,7 @@ position: relative;
     }
 
     .content-overley::before {
+      display: inline-block;
        position: absolute;
        content: "";
        width: 100%;
@@ -1279,6 +1280,7 @@ position: relative;
        opacity: 0;
        transform: translatey(100%);
       transition: transform 250ms easy;
+      
     }
 
 .img-item .content-overlay:hover,
@@ -1286,10 +1288,8 @@ position: relative;
   opacity: 1;
   transform: translateY(0);
   transition-duration: 250ms;
-  /*transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: ease;
-
-}
 }
 
 .portfolio-meta {
@@ -1302,7 +1302,9 @@ position: relative;
 }
 
 .portfolio-actions {
+  display: inline-block;
   position: absolute;
+  content: "";
   bottom: 0;
   right: 0;
   top: 0;
@@ -1310,12 +1312,15 @@ position: relative;
   font-size: 18px;
   line-height: 1.55;
   height: 100%;
+  width: 100%;
   padding: 63px 24px;
   color: var(--accent-color);
   background: rgba(33, 150, 243, 0.9);
-  transform: translateY(0);
+  transform: translate(0px, 100%);
   transition-timing-function: ease;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
+  overflow: hidden;
 }
 
 .portfolio-actions:focus, 
@@ -1323,7 +1328,7 @@ position: relative;
  opacity: 1;
   transform: translateY(0);
   color: white;
-  /*position: relative;*/
+  position: relative;
  }
 
  /*линия*/
