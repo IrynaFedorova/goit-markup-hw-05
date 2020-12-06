@@ -59,8 +59,8 @@ h6 {
   line-height: 1, 19px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 93px;
-  padding-left: 0px;
+  margin-right: 75px;
+  /*padding-left: 0px;*/
 }
 
 .accent {
@@ -88,7 +88,7 @@ address {
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.02em;
-  padding-right: 50px;
+  /*padding-right: 50px;*/
 }
 
 .site-nav-list .a:hover,
@@ -401,6 +401,7 @@ li.content-items:hover,
 
 .footer-text-color {
   color: #ffffff;
+  
 }
 /*ul.text-footer{
   margin-left: 360px;
@@ -411,8 +412,8 @@ li.content-items:hover,
 
 .column {
   float: left;
-  width: 25%;
-  padding: 10px;
+  width: 47%;
+  padding-left: 70px;
 }
 
 .row:after {
@@ -423,6 +424,8 @@ li.content-items:hover,
 
 .footer-text-color-address {
   color: hsla(0, 0%, 60%, 1);
+
+
 }
 
 /*.footer-icon-title{
@@ -476,9 +479,10 @@ html {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  padding-left: 200px;
 }
 
-div.background-lengthening-footer {
+/*div.background-lengthening-footer {
   margin: 0px auto;
   
 }
@@ -773,7 +777,9 @@ li.contacts-item:hover {
 
 .text-footer {
   padding-bottom: 9px;
+  text-align: right;
 }
+
 
 .line-container {
   margin-left: auto;
