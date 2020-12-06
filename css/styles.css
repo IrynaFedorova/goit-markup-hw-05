@@ -480,6 +480,7 @@ html {
 
 div.background-lengthening-footer {
   margin: 0px auto;
+  
 }
 
 /* o нас*/
@@ -1066,7 +1067,7 @@ border-radius: 4px;
   left: 0;
   opacity: 0;
   visibility: hidden;
-  top: 56%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 8px;
