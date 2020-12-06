@@ -412,8 +412,8 @@ li.content-items:hover,
 
 .column {
   float: left;
-  width: 47%;
-  padding-left: 70px;
+  width: 25%;
+  /*padding-left: 70px;*/
 }
 
 .row:after {
@@ -479,7 +479,7 @@ html {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  padding-left: 200px;
+  /*padding-left: 200px;*/
 }
 
 /*div.background-lengthening-footer {
@@ -777,7 +777,6 @@ li.contacts-item:hover {
 
 .text-footer {
   padding-bottom: 9px;
-  text-align: right;
 }
 
 
