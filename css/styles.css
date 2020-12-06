@@ -88,7 +88,7 @@ address {
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.02em;
-  /*padding-right: 50px;*/
+  padding-right: 50px;
 }
 
 .site-nav-list .a:hover,
